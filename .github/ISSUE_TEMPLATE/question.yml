@@ -1,0 +1,15 @@
+name: Question
+description: Ask about setup, testing or authorized usage
+title: "[Question]: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Do not include credentials or private information.
